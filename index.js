@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const PORT = 5050;
 const DB = 'mongodb://localhost:27017/employee';
 const multer = require('multer');
+const path = require('path');
 mongoose
   .connect(DB)
   .then(() => {
